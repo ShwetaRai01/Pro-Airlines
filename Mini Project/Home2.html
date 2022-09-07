@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title > Airlines</title>
+    <link rel="stylesheet" href="" >
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  </head>
+  <body style="background-image:url('');
+  background-size:100%;
+  background-color: rgb(30, 30, 109);
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  height:100%;
+  width:100%;" > <!--style="background-color:rgb(57, 57, 192)-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <div style="padding:25px 150px 0px 150px;"><!--style="padding:25px 150px 0px 150px;"-->
+    <h1 style="text-align:center;color:rgb(255, 255, 255);"> Pro Airlines</h1>
+    <div style="padding: 10px 300px 10px 300px ">
+    <nav class="navbar navbar-expand-lg bg-light" style="border-style: solid;border-radius: 5%; border-color: rgb(6, 5, 5);" >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" style="font-weight: bold; font-size: 25px;">Pro Airlines</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Home2.html"><img src="Images/home1.gif" >Home</a>
+     
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="font-weight: bold;" >About US</a>
+              </li>
+              <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>  -->
+            <form class="d-flex" role="Login">
+              <div style="float:right; position: absolute; right: 0;">
+                <button class="btn btn-outline-success" type="submit" >Status</button>
+              
+                
+              
+
+                
+              </div>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+      <div style="padding:20px 600px 5px 600px;" >
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon1" required>From</span>
+        <input type="text" class="form-control"  aria-describedby="basic-addon1" required>
+      </div>
+      
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon2">To</span>
+        <input type="text" class="form-control" placeholder="Destination" aria-label="Destination" aria-describedby="basic-addon2" required>
+        
+      </div>
+      <div style="padding:0px 0px 10px 0px">
+        <form action="/action_page.php">
+          <label for="adult" style="color:aliceblue">Adult</label>
+          <select id="adult" name="adult">
+                        <option value="1">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+          <label for="adult" style="color:aliceblue">Child</label>
+          <select id="adult" name="Child">
+            <option value="1">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+          <label for="Senior Citizen" style="color:aliceblue">Senior Citizen</label>
+          <select id="Senior Citizen" name="Senior Citizen">
+            <option value="1">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+          <label for="PHC" style="color:aliceblue">PHC</label>
+          <select id="PHC" name="PHC">
+            <option value="1">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+        </form>
+      </div>
+      
+      <!-- <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon1">Number of Passenger</span>
+        <input type="text" class="form-control"  aria-describedby="basic-addon1">
+      </div> -->
+      <!-- <div class="form-check form-check-inline">
+        <input class="form-check-input" type="Input text" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+        <label class="form-check-label" for="inlineRadio1" style="color:white;">Adult</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="dropdown" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+        <label class="form-check-label" for="inlineRadio2" style="color:white;">Child</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+        <label class="form-check-label" for="inlineRadio2" style="color:white;">Senior Citizen</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+        <label class="form-check-label" for="inlineRadio2" style="color:white;">PHC</label>
+      </div>-->
+      <div style="padding:15px 0px 15px 0px;display: inline-block;">
+      <form action="/action_page.php">
+        <label for="Date" style="color:white;"> Date</label>
+        <input type="date" id="date" name="date">
+       </form>
+    </div> 
+    <div style="padding:15px 0px 15px 10px; display: inline-block;">
+      <form action="/action_page.php">
+        <label for="Date" style="color:white;">Return</label>
+        <input type="date" id="date" name="date">
+       </form>
+    </div>
+    <div>
+    <button type="button" class="btn btn-primary btn-lg" style="padding: 0px 25px 0px 25px">Lets Fly</button>
+  </div>
+    <!-- <button type="button" class="btn btn-primary"
+        style="--bs-btn-padding-y: .25rem; padding:10px; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+  Check Flight
+</button> -->
+    </div>
+    <div style="">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" style="padding : 25px 300px 5px 300px">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Images/off1.jpg" class="d-block w-100" alt="Z">
+          </div>
+          <div class="carousel-item">
+            <img src="Images/off2.jpeg" class="d-block w-100" alt="A">
+          </div>
+          <!-- <div class="carousel-item">
+            <img src="Images/off7.jpg" class="d-block w-100" alt="B">
+          </div>
+          <div class="carousel-item">
+            <img src="Images/off5.jpg" class="d-block w-100" alt="C">
+          </div> -->
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div> 
+    </div>
+  </div>
+<!--GALLERY-->
+    
+  </body>
+</html>
+   
+
+

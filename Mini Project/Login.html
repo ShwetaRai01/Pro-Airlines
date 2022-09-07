@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Login page</title>
+        <link rel="stylesheet" href="Login.css" >
+        <script src="Login.js"></script>
+
+    </head>
+    <body>
+
+       <div style="padding:5px 0px 0px 0px; font-style:inherit; font-weight: Bold; color: rgb(0, 0, 0);">  <h1 style="text-align: Center; position: relative;top: 100px;">Sign In</h1></div>
+        <div class="login-page">
+            <div class="form">
+              <form class="register-form" name="loginform">
+                <input type="text" placeholder="name" required/>
+                <input type="password"  placeholder="password" required/>
+                <!-- <input type="text" placeholder="email address" required/> -->
+                 <button>create</button>
+                <p class="message">Already registered? <a href=" ">Sign In</a></p>
+              </form> 
+              <form class="login-form" name="loginform" ><!--action="Home2.html" onsubmit="return myfunction()"-->
+                <input type="text"   name="Uname" id="unamee" placeholder="username" required/>
+                <input type="password"  name="pass" id="passs" placeholder="password" required/>
+                
+                <button onclick="myfunction()" >Login</button>
+                <p class="message">Not registered? <a href="SignUp.html">Create an account</a></p>
+              </form>
+            </div>
+          </div>
+         
+    </body>
+</html>
+

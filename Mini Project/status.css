@@ -1,0 +1,107 @@
+body{
+    background-color: rgb(201, 233, 161);
+    background-size: cover;
+    /* backdrop-filter: blur(10px); */
+  }
+  .background-image img{
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  h2 {
+      color: rgb(16, 1, 1);
+      text-align: center;
+      font-size: 3rem;
+      position: relative;
+      top:35px;
+
+  }
+  .number {
+    font-size: 1.5rem;
+    margin-left: 20px;
+    
+  }
+  #number {
+      text-align: left;
+      font-size: 30px;
+      color: black;
+      margin-bottom: 50px;
+      border-color:rgb(14, 2, 2);
+      border-radius:15px;
+  
+  }
+  .status {
+      display: flex;
+      color: black;
+      font-size: 1.5rem;
+      margin-left: 20px;
+      margin-bottom: 50px;
+      margin-right: 100px;
+      width: 100%;
+  }
+  
+  #address {
+      margin-left: 5px;
+      color:black;
+      font-size: 30px;
+      border-color:rgb(5, 4, 4);
+  }
+  
+  #payment {
+    font-size: 30px;
+    border-radius: 15px;
+    border-color: rgb(13, 0, 0);
+  }
+  .box {
+      background-color: lightgrey;
+      width:100em;
+      height: 25em;
+      border: 5px solid rgb(73, 12, 216);
+      padding: 50px;
+      margin: 30px;
+      box-sizing: border-box;
+      border-radius: 10px;
+      margin-left: 150px;
+      margin-top: 75px;
+
+      box-shadow: antiquewhite;
+  
+  
+    }
+    .time {
+  
+      display: flex;
+      color: black;
+      font-size: 1.5rem;
+      margin-left: 20px;
+    }
+  
+    #time {
+      font-size: 30px;
+      border-color:black;
+      border-radius: 15px;
+    }
+    .button {
+      display: flex;
+      color: black;
+      justify-content: center;
+      text-align: center;
+      text-decoration: none;
+      margin-top: 20px;
+      
+    }
+  #btn {
+    cursor: pointer;
+    font-size: 20px;
+    justify-content: center;
+    margin-left: 100px;
+    text-align: center;
+    border-radius:10%;
+    color: brown; 
+  }
+  button:hover {
+    background-color:green;
+  }
+    
+  
+  

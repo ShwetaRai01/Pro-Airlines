@@ -1,0 +1,210 @@
+body{
+    /* background-image: url(); */
+    background-size: cover;
+    background-color: rgb(150, 150, 182);
+    /* backdrop-filter: blur(5px); */
+  }
+  #scroll{
+    font-size: 2rem;
+    color: rgb(35, 21, 224);
+  }
+  
+  
+  h2 {
+      color: rgb(28, 26, 52);
+      font-size: 3.5rem;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-align: center;
+    }
+  .background-image img{
+    width: 100vw;
+    height: 100vh;
+  }
+    
+    div{
+      width: 40em;
+      height: 50px;
+      margin: 0px;
+      font-size: 1.5rem;
+      /* border-style: outset; */
+      /* border-width: 1px; */
+      border-radius: 5%;
+    }
+    .main {
+      display: flex;
+      border: none;
+      padding: 0px;
+      /* margin-top: 50px; */
+      
+    }
+    
+    
+    .first {              /*trip*/
+      float: left;
+      width: 30%;
+      padding: 0px;
+      height: 50px;
+      color: rgb(0,0,0);
+      margin-left: 150px;
+    }
+    
+    .second {            /*from*/
+      float: left;
+      width: 30%;
+      padding: 0px;
+      height: 50px;
+      color: black;
+      margin-right: 30px;
+    }
+  
+    
+    .third {           /*to*/
+      float: left;
+      width: 30%;
+      padding: 0px;
+      height: 50px;
+      color: black;
+      margin-left: 40px;
+    }
+    
+    .fourth {             /*departure date*/
+      float: left;
+      width: 30%;
+      padding: 0px;
+      height: 50px;
+      color: black;
+      margin-right: 40px;
+    }
+  
+    
+    .fifth {              /*special fares*/
+      float: left;
+      width: 30%;
+      padding: 0px;
+      height: 50px;
+      color: black;
+    }
+    .button1 {                /* modify*/
+      float: left;
+      width: 30%;
+      padding: 0px;
+      height: 50px;
+      color: black;
+      margin-left: 70px;
+    }
+  
+    .row {                  
+      display: flex;
+      color: black;
+      float: right;
+      margin-top: 50px;
+      margin-left: 100px;
+    }
+    .Time {          /*time*/ 
+      float: right; 
+      width: 30%;
+      padding: 0px;
+      height: 50px;
+      color: black;
+    }
+    .Stop {             /*stop*/
+      float: right;
+      width: 30%;
+      padding: 0px;
+      height: 50px;
+      color: black;
+    }
+    
+    
+    .table1 {               /*table*/
+      border-collapse: collapse;
+      width: 60%;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 20px;
+      box-shadow: 0,20px,20px,rgb(255, 255, 255);
+      border-radius: 10px,10px,8px,8px;
+      overflow: hidden;
+      margin-top: 150px;
+    }
+      .table1 thead th {
+      text-align:center;
+      font-size: 25px;
+      font-weight: bold;
+      color: aliceblue;
+      padding: 10px;
+      background-image: linear-gradient(darkblue, rgb(146, 15, 140))
+  
+    }
+    
+     .table1 td, th {
+      text-align: center;
+      padding: 15px;
+    }
+    
+    tr:nth-child(even) {
+      background-color: rgb(134, 133, 207);
+    }
+    
+    tr:nth-child(odd) {
+      background-color: rgb(230, 223, 221);
+    }
+    .table1 tbody tr:hover {
+      background-color: rgb(131, 190, 218);
+    }
+    .center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 0px;
+      border: 0px;
+      text-align: center;
+      margin-left: 20%;
+      font-size: 2rem;
+      background :none;
+    }
+    #id {
+      cursor: pointer;
+    }
+  input, #from, #trip {
+    width: 150px;
+    background-color: transparent;
+    padding: 8px 25px;
+    border: none;
+    border-bottom: 1px solid red;
+    font-size: 18px;
+    font-family: verdana;
+    cursor: pointer;
+  }
+  .Special{
+    margin-left: 50px;
+  }
+  select {
+    /* Reset */
+    border: 0;
+    outline: 0;
+    font: inherit;
+    /* Personalize */
+    width: 150px;
+    height:30px;
+    /* padding: 0 4em 0 1em; */
+    color: rgb(10, 165, 30);
+    border-radius: 0.25em;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;}
+    /* <option> colors */
+    option {
+      
+      color: inherit;
+      background-color: red;
+    }
+    /* Remove focus outline */
+    option:focus {
+      outline: none;
+    }
+    /* Remove IE arrow */
+    option::-ms-expand {
+      display: none;
+    }
+  
+  
